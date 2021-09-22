@@ -125,6 +125,35 @@
 
         </div>
 
+        <div class="modulo azul-escuro">
+          <h3>8. Paradigmas O.O</h3>
+          <ul>
+            <li><a href="exercicio.php?dir=classes_objetos&file=classe">Classe</a></li>
+            <li><a href="exercicio.php?dir=classes_objetos&file=construtor_destrutor">Construtor e Destrutor</a></li>
+            <li><a href="exercicio.php?dir=classes_objetos&file=heranca">Herança</a></li>
+            <li><a href="exercicio.php?dir=classes_objetos&file=visibilidade">Visibilidade</a></li>
+            <li><a href="exercicio.php?dir=classes_objetos&file=static">Membros Estáticos</a></li>
+            <li><a href="exercicio.php?dir=classes_objetos&file=interface">Interface</a></li>
+            <li><a href="exercicio.php?dir=classes_objetos&file=abstrata">Abstrata</a></li>
+            <li><a href="exercicio.php?dir=classes_objetos&file=traits_01">traits #1</a></li>
+            <li><a href="exercicio.php?dir=classes_objetos&file=traits_02">traits #2</a></li>
+            <li><a href="exercicio.php?dir=classes_objetos&file=desafio_erros">Desafio Erros</a></li>
+            <li><a href="exercicio.php?dir=classes_objetos&file=final">Final</a></li>
+            <li><a href="exercicio.php?dir=classes_objetos&file=magic_methods">Métodos Magicos</a></li>
+            <li><a href="exercicio.php?dir=classes_objetos&file=polimorfismo">Polimorfismo</a></li>
+
+        </div>
+
+        <div class="modulo roxo-escuro">
+          <h3>9. Includes</h3>
+          <ul>
+            <li><a href="exercicio.php?dir=includes&file=include">Includes</a></li>
+            <li><a href="exercicio.php?dir=includes&file=include_funcao">Include Funcão</a></li>
+            <li><a href="exercicio.php?dir=includes&file=include_require">Include x Require</a></li>
+            
+
+        </div>
+
       </nav>
     </div>
   </main>

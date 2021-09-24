@@ -150,6 +150,9 @@
             <li><a href="exercicio.php?dir=includes&file=include">Includes</a></li>
             <li><a href="exercicio.php?dir=includes&file=include_funcao">Include Funcão</a></li>
             <li><a href="exercicio.php?dir=includes&file=include_require">Include x Require</a></li>
+            <li><a href="exercicio.php?dir=includes&file=require_return">Require x Return</a></li>
+            <li><a href="exercicio.php?dir=includes&file=include_once">Include Once</a></li>
+            <li><a href="exercicio.php?dir=includes&file=desafio">Desafio</a></li>
             
 
         </div>

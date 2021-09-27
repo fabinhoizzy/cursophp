@@ -157,6 +157,27 @@
 
         </div>
 
+        <div class="modulo laranja-escuro">
+          <h3>10. Namespace</h3>
+          <ul>
+            <li><a href="exercicio.php?dir=namespace&file=basico">Básico</a></li>
+            <li><a href="exercicio.php?dir=namespace&file=sub_namespace">Sub Namespace</a></li>
+            <li><a href="exercicio.php?dir=namespace&file=use_as">Use As</a></li>
+            
+
+        </div>
+
+        <div class="modulo verde">
+          <h3>11. Tratamento de Erros</h3>
+          <ul>
+            <li><a href="exercicio.php?dir=tratamento_erro&file=try_catch">Try Catch</a></li>
+            <li><a href="exercicio.php?dir=tratamento_erro&file=erros_personalizados">Error Personalizados</a></li>
+            <li><a href="exercicio.php?dir=tratamento_erro&file=desafio_intdiv_teste">Desafio intdiv</a></li>
+            <li><a href="exercicio.php?dir=tratamento_erro&file=gerenciador_erro">Gerenciador de Error</a></li>
+            
+
+        </div>
+
       </nav>
     </div>
   </main>

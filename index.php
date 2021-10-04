@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(!$_SESSION['usuario']) {
+  header('Location: login.php');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,6 +24,11 @@
     <h1>Curso PHP</h1>
     <h2>Índice dos Exercícios</h2>
   </header>
+
+
+  <nav class="navegacao">
+
+  </nav>
 
   <main class="principal">
     <div class="conteudo">
@@ -153,7 +165,7 @@
             <li><a href="exercicio.php?dir=includes&file=require_return">Require x Return</a></li>
             <li><a href="exercicio.php?dir=includes&file=include_once">Include Once</a></li>
             <li><a href="exercicio.php?dir=includes&file=desafio">Desafio</a></li>
-            
+
 
         </div>
 
@@ -163,7 +175,7 @@
             <li><a href="exercicio.php?dir=namespace&file=basico">Básico</a></li>
             <li><a href="exercicio.php?dir=namespace&file=sub_namespace">Sub Namespace</a></li>
             <li><a href="exercicio.php?dir=namespace&file=use_as">Use As</a></li>
-            
+
 
         </div>
 
@@ -174,7 +186,15 @@
             <li><a href="exercicio.php?dir=tratamento_erro&file=erros_personalizados">Error Personalizados</a></li>
             <li><a href="exercicio.php?dir=tratamento_erro&file=desafio_intdiv_teste">Desafio intdiv</a></li>
             <li><a href="exercicio.php?dir=tratamento_erro&file=gerenciador_erro">Gerenciador de Error</a></li>
-            
+
+
+        </div>
+
+        <div class="modulo vermelho">
+          <h3>12. Sessão</h3>
+          <ul>
+            <li><a href="exercicio.php?dir=sessao&file=basico_sessao">Básico Sessão</a></li>
+
 
         </div>
 

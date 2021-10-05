@@ -1,17 +1,17 @@
 <?php
 session_start();
 
-if($_COOKIE['usuario']) {
+if ($_COOKIE['usuario']) {
   $_SESSION['usuario'] = $_COOKIE['usuario'];
 }
 
-if(!$_SESSION['usuario']) {
+if (!$_SESSION['usuario']) {
   header('Location: login.php');
 }
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
@@ -200,8 +200,25 @@ if(!$_SESSION['usuario']) {
           <h3>12. Sessão</h3>
           <ul>
             <li><a href="exercicio.php?dir=sessao&file=basico_sessao">Básico Sessão</a></li>
+        </div>
 
+        <div class="modulo azul">
+          <h3>13. API</h3>
+          <ul>
+            <li><a href="exercicio.php?dir=api&file=datas_01">Datas #01</a></li>
+            <li><a href="exercicio.php?dir=api&file=datas_02">Datas #02</a></li>
+            <li><a href="exercicio.php?dir=api&file=escrevendo_arquivo">Escrever Arquivo</a></li>
+            <li><a href="exercicio.php?dir=api&file=download">Download</a></li>
+            <li><a href="exercicio.php?dir=api&file=imagens">Imagens</a></li>
+            <li><a href="exercicio.php?dir=api&file=ler_arquivo">Ler Arquivos</a></li>
+            <li><a href="exercicio.php?dir=api&file=upload">Upload</a></li>
+        </div>
 
+        <div class="modulo azul">
+          <h3>14. Formulários</h3>
+          <ul>
+            <li><a href="exercicio.php?dir=api&file=datas_01">Datas #01</a></li>
+            
         </div>
 
       </nav>
